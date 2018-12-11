@@ -9,12 +9,12 @@ CPU Core: 8
 Load Average: 8.74 / 7.74 / 7.36
 
 Process:com.sample.app 
-  50% 23468/com.sample.io.test(S): 11% user + 38% kernel faults:4965
+  50% 23468/com.sample.app(S): 11% user + 38% kernel faults:4965
 
 Threads:
   43% 23493/singleThread(R): 6.5% user + 36% kernel faults：3094
   3.2% 23485/RenderThread(S): 2.1% user + 1% kernel faults：329
-  0.3% 23468/.sample.io.test(S): 0.3% user + 0% kernel faults：6
+  0.3% 23468/.sample.app(S): 0.3% user + 0% kernel faults：6
   0.3% 23479/HeapTaskDaemon(S): 0.3% user + 0% kernel faults：982
   ...
 ```

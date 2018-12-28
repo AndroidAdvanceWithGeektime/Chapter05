@@ -223,6 +223,7 @@ public class ProcessCpuTracker {
 		return resultInfo.getTime() + "\n" +
 				resultInfo.getSystemTotal() + "\n" +
 				resultInfo.getCpuCore() + "\n" +
+				resultInfo.getLoad() + "\n" +
 				"\n" +
 				"Process:com.sample.startup\n" +
 				"  " + resultInfo.getMainProcess() + "\n" +

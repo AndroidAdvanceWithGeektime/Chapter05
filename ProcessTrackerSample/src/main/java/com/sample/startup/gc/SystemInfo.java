@@ -1,11 +1,11 @@
 package com.sample.startup.gc;
 
 
+import android.support.annotation.Nullable;
+
 import java.io.Closeable;
 import java.io.IOException;
 import java.io.RandomAccessFile;
-
-import android.support.annotation.Nullable;
 
 public class SystemInfo {
     private static final String TAG = "SystemInfo";

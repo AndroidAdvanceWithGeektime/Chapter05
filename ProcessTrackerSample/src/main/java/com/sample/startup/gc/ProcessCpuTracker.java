@@ -227,6 +227,8 @@ public class ProcessCpuTracker {
 				"\n" +
 				"Process:com.sample.startup\n" +
 				"  " + resultInfo.getMainProcess() + "\n" +
+				"\n" +
+				"Threads:\n" +
 				str;
 	}
 
